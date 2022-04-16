@@ -15,21 +15,6 @@ type Props = {
 const Home: NextPage<Props> = ({ currency }) => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black py-2">
-      <Head>
-        <title>Cotización Dólar Blue</title>
-        <meta content="Tahiel Pedevilla" name="copyright" />
-        <meta content="tahiel" name="author" />
-        <meta
-          name="description"
-          content="Portal para conocer los valores del dólar BLUE con la última cotización"
-        />
-        <meta
-          name="keywords"
-          content="dolar blue, dolar blue cotizacion, dolar blue cotizaciones, dolar blue hoy"
-        />
-        <link rel="icon" href="/favicon.svg" />
-      </Head>
-
       <main className="flex w-full flex-1 flex-col items-center justify-center bg-black px-12 font-mono text-white">
         <h1 className="hidden text-3xl font-bold md:block">
           COTIZACIÓN DÓLAR BLUE
